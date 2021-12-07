@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTemplateWeb", "MyTemplate\MyTemplateWeb.csproj", "{64A52293-15C9-4356-A278-B11A285B2D98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfrastructure", "Interfrastructure\Interfrastructure.csproj", "{98CEFBE9-1D13-47F1-AEA7-B318358625E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfrastructure", "Interfrastructure\Interfrastructure.csproj", "{98CEFBE9-1D13-47F1-AEA7-B318358625E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCore", "ApplicationCore\ApplicationCore.csproj", "{3C6E94F0-E43D-438C-83B8-43DC12D70DA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationCore", "ApplicationCore\ApplicationCore.csproj", "{3C6E94F0-E43D-438C-83B8-43DC12D70DA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{DED9CDFD-EC91-4DEC-9D6B-EBEE817E9989}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64A52293-15C9-4356-A278-B11A285B2D98} = {DED9CDFD-EC91-4DEC-9D6B-EBEE817E9989}
+		{98CEFBE9-1D13-47F1-AEA7-B318358625E8} = {DED9CDFD-EC91-4DEC-9D6B-EBEE817E9989}
+		{3C6E94F0-E43D-438C-83B8-43DC12D70DA3} = {DED9CDFD-EC91-4DEC-9D6B-EBEE817E9989}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEFD681C-9B50-43E6-9D1B-B4272D6A4360}
