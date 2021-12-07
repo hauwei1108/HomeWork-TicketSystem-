@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "start ng serve && start gulp watch",
-    "build": "ng build --c proudution --base-href=./",
+    "build": "ng build --c production --base-href=./",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

@@ -49,7 +49,7 @@ namespace MyTemplateWeb.Controllers
             Response.Cookies.Append(CookieConstants.CLIENT_USER_NAME, userAct, options);
             Response.Cookies.Append(CookieConstants.CLIENT_TICKET, Guid.NewGuid().ToString(), options);
 
-            return Redirect("~/Index.html");
+            return Redirect("~/index.html");
         }
 
     }

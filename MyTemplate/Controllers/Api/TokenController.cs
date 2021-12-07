@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MyTemplateWeb.Controllers.Api
 {
-    [Route("api /{controller}/{action}")]
+    [Route("api/{controller}/{action}")]
     public class TokenController : ControllerBase
     {
         [HttpGet]

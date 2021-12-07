@@ -24,6 +24,10 @@
     <ProjectReference Include="..\Interfrastructure\Interfrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Diagram\" />
+  </ItemGroup>
+
   <ProjectExtensions><VisualStudio><UserProperties connectionstrings_1json__JsonSchema="https://json.schemastore.org/connectionStrings.json" /></VisualStudio></ProjectExtensions>
 
 </Project>
